@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
-    font-family: poppins, sans-serif;
+    font-family: lato, sans-serif;
 }
 header{
     height: 60vh;
@@ -35,16 +35,16 @@ nav ul{
 nav a{
     text-decoration: none;
     font-size: 1rem;
-    color: #252424;
-    font-weight: 600;
+    color: #25242493;
+    font-weight: 500;
 }
 .bx-search{
     margin-left: 50vw;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .title{
-    background-color: #1f1111;
+    background-color: #252424;
     height: 4vh;
     width: 27vw;
     padding: 1rem;
@@ -61,25 +61,239 @@ nav a{
 .about{
     padding: 10vh;
 }
-.about h2{
-    font-weight: 600;
+.abouth2{
+    font-weight: 500;
     color: #252424b0;
     text-align: center;
 }
-#p1{
+.p1{
      justify-content: center;
     color: #252424b0;
     text-align: center;
     font-style: italic;
     padding: 1rem;
-    font-size: 0.8rem;
-    font-weight: 600;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 2rem;
 }
 .pmain{
     color: #252424b0;
-    font-size: 0.9rem;
-    line-height: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.8rem;
+    margin-left: 8vw;
+}
+.bxs-user{
+    margin-right: 0.7rem;
+}
+.myname{
+    display: flex;
+    margin-top: 5vh;
+    margin-left: 4vw;
+    gap: 5rem;
     justify-content: center;
-    margin-left: 10vw;
+}
+#name p{
+    padding-bottom: 3rem;
+    color: #252424b0;
+    text-align: center;
+    font-weight: 600;
+}
+.myname img{
+    width: 32vw;
+    height: 50vh;
+}
+.mynamep{
+    color: #252424b0;
+    font-size: 1rem;
+    line-height: 1.8rem;
+    
+}
+#im{
+    padding: 2rem;
+    text-align: center;
+     color: #252424b0;
+     font-size: 1.2rem;
+}
+.artbars{
+    justify-content: center;
+    margin-left: 8.9vw;
+    padding-bottom: 3rem;
+}
+.photography{
+    color: #252424b0;
+    font-size: 1rem;
+    letter-spacing: 0.8rem;
+    padding: 1rem;
+    padding-left: 0;
+}
+.bar{
+    width: 70vw;
+    height: 6vh;
+    background-color: #e6e6e685;
+}
+#ninety{
+    width: 62vw;
+    background-color: #616161;
+    color: white;
+    text-align: center;
+    padding: 0.74rem;
+}
+#eightyfive{
+    width: 55vw;
+    background-color: #616161;
+    color: white;
+    text-align: center;
+    padding: 0.74rem;
+}
+#seventyfive{
+    width: 47vw;
+    background-color: #616161;
+    color: white;
+    text-align: center;
+    padding: 0.74rem;
+}
+.secport{
+    background-image: url('./Images/portfolio\ bg.jpg');
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+    height: 70vh;
+    margin-bottom: 10vh;
+}
+.portnav{
+    display: flex;
+    background-color: #616161;
+    color: white;
+    height: 20vh;
+    gap: 15vw;
+    align-items: center;
+    padding-left: 15vw;
+}
+.achieve{
+    text-align: center;
+    align-items: center;
+}
+.achieve h3{
+    font-size: 1.5rem;
+    padding: 0.8rem;
+    font-weight: 400;
+}
+#porth3{
+    font-size: 2.3rem;
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 0.7rem;
+    padding-top: 20vh;
+}
+.imgflex{
+    display: flex;
+    gap: 1.5rem;
+    padding: 0.7rem;
+    padding-left: 15vw;
+}
+.imgflex img{
+    width: 16vw;
+    height: 13vw;
+}
+.button{
+    margin: 3rem;
+    justify-content: center;
+    border: #616161;
+    color: black;
+    outline: none;
+    font-size: 1rem;
+    padding: 1.5rem;
+    margin-left: 45vw;
+    margin-bottom: 4rem;
+
+}
+.artwhere{
+    background-image: url('./Images/contactbg2.jpg');
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+    height: 65vh;
+    margin-bottom: 10vh;
+}
+.artwhere h3{
+    font-size: 2.3rem;
+    color: white;
+    text-align: center;
+    font-weight: 550;
+    letter-spacing: 0.7rem;
+    padding-top: 27vh;
+}
+.mapflex{
+    display: flex;
+    gap: 5vw;
+    margin-top: 6vh;
+    margin-left: 18vw;
+}
+.mapflex img{
+    width: 22vw;
+    height: 27vh;
+    border-radius: 0.3rem;
 }
 
+.address li{
+    list-style: none;
+    color: #252424b0;
+    font-size: 1.1rem;
+    line-height: 2rem;
+}
+form{
+    color: #252424b0;
+}
+.address input::placeholder{
+    font-size: 1rem;
+}
+.address input{
+    height: 5vh;
+    margin-right: 0.6vw;
+    margin-bottom: 1.5vh;
+    margin-top: 2vh;
+    padding-left: 1vw;
+    padding-right: 7vw;
+    border: 1px solid #4d4949;
+}
+.address button{
+    color: white;
+    background-color: black;
+    font-size: 1rem;
+    padding: 1rem;
+    margin-top: 1vh;
+    border: none;
+    margin-left: 26.5vw;
+}
+footer{
+    margin-top: 7vh;
+    background-color: #616161;
+    color: white;
+    padding: 4rem;
+}
+#topbutton{
+   text-decoration: none;
+   background-color: white;
+   color: #616161;
+   font-size: 1.1rem;
+   padding: 1vw; 
+   justify-content: center;
+   text-align: center;
+   margin-left: 40vw;
+   
+}
+.icons{
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 5vh;
+    font-weight: bolder;
+}
+#powered{
+    text-align: center;
+    font-size: 1rem;
+}
+#powered a{
+    color: white;
+    margin-top: -1vh;
+}

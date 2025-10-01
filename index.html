@@ -5,21 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>W3 CSS TEMPLATE</title>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
 
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <header>
+    <header id="top">
         
             <img src="./Images/hero bg-Photoroom-Photoroom.png" alt="Background">
             <nav>
             <ul>
-                <li><a href="">HOME</a></li>
-                <li><a href=""><i class='bx bxs-user'></i>ABOUT</a></li>
-                <li><a href=""><i class='bx bxs-grid'></i>PORTFOLIO</a></li>
-                <li><a href=""><i class='bx bxs-envelope' ></i>CONTACT</a></li>
-                <li><a href=""><i class='bx bx-search'></i></a></li>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#"><i class='bx bxs-user'></i>ABOUT</a></li>
+                <li><a href="#"><i class='bx bxs-grid'></i>PORTFOLIO</a></li>
+                <li><a href="#"><i class='bx bxs-envelope' ></i>CONTACT</a></li>
+                <li><a href="#"><i class='bx bx-search'></i></a></li>
             </ul>
         </nav>
         <div class="title">
@@ -27,80 +28,84 @@
         </div>
     </header>
     <section class="about">
-        <h2>ABOUT ME</h2>
-        <P id="p1">I love photography</P>
+        <h2 class="abouth2">ABOUT ME</h2>
+        <P class="p1">I love photography</P>
         <P class="pmain">We have created a fictional "personal" website/blog, and our fictional character is a hobby photographer. Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco <br>laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do <br> eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex <br>ea commodo consequat.</P>
-        <article>
-            <div>
-                <i class='bx bxs-user'></i><p> My Name</p>
+        <article class="myname">
+            <div id="name">
+               <p> <i class='bx bxs-user'></i> My Name</p>
                 <img src="./Images/my name.jpg" alt="Me">
             </div>
-            <div>
-                Welcome to my website. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            <div class="mynamep">
+                Welcome to my website. I am lorem ipsum consectetur adipiscing <br> elit, sed do eiusmod tempor incididunt ut labore et dolore magna <br>aliqua. Ut enim ad minim veniam, quis nostrud exercitation <br>ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis <br> aute irure dolor in reprehenderit in voluptate velit esse cillum <br>dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat <br> non proident, sunt in culpa qui officia deserunt mollit anim id est <br> laborum consectetur adipiscing elit, sed do eiusmod tempor <br>incididunt ut labore et dolore magna aliqua. Ut enim ad minim <br> veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex <br>ea commodo consequat.
             </div>
         </article>
-        <i class='bx bxs-camera' ></i> <p>I'm really good at:</p>
-        <p>Photography</p>
-        <div>
-            <div>90%</div>
+    <article class="artbars">
+         <p id="im">I'm really good at:</p>
+        <p class="photography"><i class='bx bxs-camera' ></i> Photography</p>
+        <div class="bar">
+            <div id="ninety">90%</div>
         </div>
-        <i class='bx bx-laptop'></i><p>Web Design</p>
-        <div>
-            <div>85%</div>
+        <p class="photography"><i class='bx bx-laptop'></i>Web Design</p>
+        <div class="bar">
+            <div id="eightyfive">85%</div>
         </div>
-        <i class='bx bx-image' ></i><p>Photoshop</p>
-        <div>
-            <div>75%</div>
+       <p class="photography"> <i class='bx bx-image' ></i>Photoshop</p>
+        <div class="bar">
+            <div id="seventyfive">75%</div>
         </div>
+    </article>
     </section>
-    <section>
-        <div>
-            <div>
+    <section class="secport">
+        <div class="portnav">
+            <div class="achieve">
             <h3>14+</h3>
             <p>Partners</p>
         </div>
-        <div>
+        <div class="achieve">
             <h3>55+</h3>
         <p>Projects Done</p>
             </div>
-            <div>
+            <div class="achieve">
                 <h3>89+</h3>
                 <p>Happy Clients</p>
             </div>
-            <div>
+            <div class="achieve">
                 <h3>150+</h3>
-                <p>Happy Clients</p>
+                <p>Meetings</p>
             </div>
         </div>
-        <h3>PORTFOLIO</h3>
+        <h3 id="porth3">PORTFOLIO</h3>
     </section>
     <section>
-        <h3>MY WORK</h3>
-        <p>Here are some of my latest lorem work ipsum tipsum. <br>Click on the images to make them bigger</p>
-        <div>
+        <h3 class="abouth2">MY WORK</h3>
+        <p class="p1">Here are some of my latest lorem work ipsum tipsum. <br>Click on the images to make them bigger</p>
+        <div class="imgflex">
             <img src="./Images/cloud 1.jpg" alt="Cloud Photo">
             <img src="./Images/coffee.jpg" alt="Coffee photo">
             <img src="./Images/bear.jpg" alt="Bear Photo">
             <img src="./Images/sea1.jpg" alt="Sea Photo">
         </div>
-        <div>
+        <div class="imgflex">
             <img src="./Images/cloud2.jpg" alt="Cloud Image">
             <img src="./Images/typewriter.jpg" alt="Machine photo">
             <img src="./Images/window.jpg" alt="Bus window">
             <img src="./Images/sea2.jpg" alt="Sea image">
         </div>
-        <button>LOAD MORE</button>
+        <button class="button">LOAD MORE</button>
     </section>
     <section>
+        <article class="artwhere">
         <h3>CONTACT</h3>
-    </section>
-    <section>
-        <h1>WHERE I WORK</h1>
-        <P>I'd love your feedback!</P>
-        <div>
+         </article>
+         
+            <h2 class="abouth2">WHERE I WORK</h2>
+        <P class="p1">I'd love your feedback!</P>
+        <div class="mapflex">
+            <div>
             <img src="./Images/map.jpg" alt="Map">
         </div>
-        <div>
+        <div class="address">
             <ul>
             <li><i class='bx bxs-map'></i> Chicago, US</li>
             <li><i class='bx bxs-phone'></i> Phone: +00 151515</li>
@@ -109,15 +114,17 @@
             </ul>
 
             <form action="mailto" method="get">
-                <input type="text" id="name" placeholder="Name" required><input type="email" id="email" placeholder="Email">
-                <textarea name="text" id="message" cols="10" rows="3"></textarea>
+                <input type="text" id="name" placeholder="Name" required class="input"><input type="email" id="email" placeholder="Email"> <br>
+                <textarea name="text" id="message" cols="73" rows="3"></textarea> 
+                <br>
                 <button><i class='bx bxl-telegram'></i>SEND MESSAGE</button>
             </form>
         </div>
+        </div>
     </section>
     <footer>
-        <div><a href="">To the top</a></div>
-        <div>
+        <div><a href="#top" id="topbutton"><i class='bx bx-up-arrow-alt'></i>To the top</a></div>
+        <div class="icons">
             <i class='bx bxl-facebook-square'></i>
             <i class='bx bxl-instagram' ></i>
             <i class='bx bxl-snapchat' ></i>
@@ -125,7 +132,7 @@
             <i class='bx bxl-twitter' ></i>
             <i class='bx bxl-linkedin' ></i>
         </div>
-        <p>Powered by <a href="w3.css"></a></p>
+        <p id="powered">Powered by <a href="https://www.w3schools.com/w3css" target="_blank">w3.css</a></p>
     </footer>
 </body>
 </html>
