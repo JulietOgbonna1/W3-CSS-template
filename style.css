@@ -268,7 +268,7 @@ nav a{
 }
 .bxs-map, .bxs-phone, #bxs-envelope{
     font-size: 1.5rem;
-    padding-right: 1.5rem;
+    padding-right: 1.4rem;
 }
 .bxs-map:hover{
     filter: opacity(70%);
