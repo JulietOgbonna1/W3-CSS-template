@@ -114,6 +114,10 @@ nav a{
     width: 32vw;
     height: 50vh;
     display: block;
+    filter: opacity(60%);
+}
+.myname img:hover{
+    filter: opacity(100%);
 }
 .mynamep{
     color: #252424b0;
@@ -208,7 +212,9 @@ nav a{
 .imgflex img{
     width: 16vw;
     height: 13vw;
-    position: relative;
+}
+.imgflex img:hover{
+    filter: opacity(70%);
 }
 .button{
     margin: 3rem;
@@ -258,6 +264,20 @@ nav a{
     color: #252424b0;
     font-size: 1.1rem;
     line-height: 2rem;
+    align-items: center;
+}
+.bxs-map, .bxs-phone, .bxs-envelope{
+    font-size: 1.5rem;
+    padding-right: 1.5rem;
+}
+.bxs-map:hover{
+    filter: opacity(70%);
+}
+.bxs-phone:hover{
+    filter: opacity(70%);
+}
+.bxs-envelope:hover{
+    filter: opacity(70%);
 }
 form{
     color: #252424b0;
