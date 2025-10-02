@@ -20,10 +20,11 @@ header img{
     opacity: 10;
 }
 nav{
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.616);
     position: fixed;
     width: 100vw;
     padding: 0.8rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 nav ul{
     display: flex;
@@ -31,6 +32,13 @@ nav ul{
     gap: 5vw;
     text-align: center;
     align-items: center;
+}
+nav li{
+    height: 2rem;
+}
+.hover:hover{
+    background-color: gray;
+    
 }
 nav a{
     text-decoration: none;
@@ -40,7 +48,11 @@ nav a{
 }
 .bx-search{
     margin-left: 50vw;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    padding: 0.8rem;
+}
+.bx-search:hover{
+    background-color: red;
 }
 
 .title{
@@ -101,6 +113,7 @@ nav a{
 .myname img{
     width: 32vw;
     height: 50vh;
+    display: block;
 }
 .mynamep{
     color: #252424b0;
@@ -195,6 +208,7 @@ nav a{
 .imgflex img{
     width: 16vw;
     height: 13vw;
+    position: relative;
 }
 .button{
     margin: 3rem;
@@ -207,6 +221,9 @@ nav a{
     margin-left: 45vw;
     margin-bottom: 4rem;
 
+}
+.button:hover{
+    background-color: gray;
 }
 .artwhere{
     background-image: url('./Images/contactbg2.jpg');
@@ -266,11 +283,18 @@ form{
     border: none;
     margin-left: 26.5vw;
 }
+.address button:hover{
+    color: black;
+    background-color: #adabab;
+}
 footer{
     margin-top: 7vh;
     background-color: #616161;
     color: white;
     padding: 4rem;
+}
+footer:hover{
+    background-color: black;
 }
 #topbutton{
    text-decoration: none;
@@ -283,11 +307,38 @@ footer{
    margin-left: 40vw;
    
 }
+#topbutton:hover{
+    background-color: rgba(255, 255, 255, 0.74);
+}
 .icons{
     font-size: 1.5rem;
     text-align: center;
     margin: 5vh;
     font-weight: bolder;
+}
+.bxl-facebook-square:hover{
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.479);
+}
+.bxl-instagram:hover{
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.479);
+}
+.bxl-snapchat:hover{
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.479);
+}
+.bxl-pinterest-alt:hover{
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.479);
+}
+.bxl-twitter:hover{
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.479);
+}
+.bxl-linkedin:hover{
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.479);
 }
 #powered{
     text-align: center;
@@ -296,4 +347,7 @@ footer{
 #powered a{
     color: white;
     margin-top: -1vh;
+}
+#powered a:hover{
+    color: green;
 }
